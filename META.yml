@@ -15,13 +15,16 @@ name: SOAP-Transport-JABBER
 provides:
   SOAP::Transport::JABBER:
     file: lib/SOAP/Transport/JABBER.pm
-    version: 0.711
+    version: 0.712
   SOAP::Transport::JABBER::Client:
     file: lib/SOAP/Transport/JABBER.pm
+    version: 0.712
   SOAP::Transport::JABBER::Query:
     file: lib/SOAP/Transport/JABBER.pm
+    version: 0.712
   SOAP::Transport::JABBER::Server:
     file: lib/SOAP/Transport/JABBER.pm
+    version: 0.712
   URI::jabber:
     file: lib/SOAP/Transport/JABBER.pm
 requires:
@@ -29,4 +32,4 @@ requires:
   perl: v5.6.0
 resources:
   license: http://www.perlfoundation.org/artistic_license_1_0
-version: 0.711
+version: 0.712
