@@ -13,7 +13,7 @@ package SOAP::Transport::JABBER;
 use strict;
 use warnings;
 
-our $VERSION = 0.712;
+our $VERSION = 0.713;
 
 use Net::Jabber 1.0021 qw(Client);
 use URI::Escape;
@@ -51,7 +51,7 @@ require URI::_userpass;
 # ======================================================================
 
 package SOAP::Transport::JABBER::Query;
-our $VERSION = 0.712;
+our $VERSION = 0.713;
 sub new {
     my $proto = shift;
     bless {} => ref($proto) || $proto;
@@ -70,7 +70,7 @@ sub GetPayload {
 # ======================================================================
 
 package SOAP::Transport::JABBER::Client;
-our $VERSION = 0.712;
+our $VERSION = 0.713;
 use vars qw(@ISA);
 @ISA = qw(SOAP::Client Net::Jabber::Client);
 
@@ -178,7 +178,7 @@ sub send_receive {
 # ======================================================================
 
 package SOAP::Transport::JABBER::Server;
-our $VERSION = 0.712;
+our $VERSION = 0.713;
 use Carp ();
 use vars qw(@ISA $AUTOLOAD);
 @ISA = qw(SOAP::Server);
